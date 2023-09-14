@@ -1,2 +1,2 @@
-# adidesigns.github.io
+# designbysnigdha.github.io
 My design portfolio site.

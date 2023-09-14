@@ -28,6 +28,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
     <!-- Poppins for Title -->
   	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
  
  
 	
@@ -38,7 +39,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body >
   	
   	<!-- Start Header -->
 	<header id="mu-header" class="" role="banner">
@@ -69,7 +70,6 @@
 			        <li><a href="#">HOME</a></li>
 			        <li><a href="#mu-about">ABOUT</a></li>
 		            <li><a href="#mu-portfolio">PORTFOLIO</a></li>
-		            <li><a href="#mu-contact">CONTACT</a></li>
 		      	</ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -125,9 +125,7 @@
 							<div class="mu-about-header">
 								<h2 class="mu-heading-title">ABOUT ME</h2>
 								<span class="mu-header-dot"></span>
-								<p>My name is Snigdha Das. I want to be a <strong>UX/UI Designer</strong>. I am a highly motivated and creative individual with a strong interest in user-centered design. My passion for investigative design has led me to pursue a career in UX/UI, where I can leverage my skills to create meaningful and engaging experiences for users.<br>
-
-My design process is rooted in research and empathy, always striving to understand users' needs, behaviors, and pain points. I have experience conducting user research, creating personas, and mapping user journeys to inform design decisions and validate design solutions. Through wireframing, prototyping, and testing, I aim to create intuitive and user-friendly interfaces that solve real-world problems.</p>
+								<p>My name is Snigdha Das. I am professional <strong>UX/UI Designer</strong>. My passion is investigative design with intention.</p>
 							</div>
 
 							<!-- Start About Content -->
@@ -143,27 +141,7 @@ My design process is rooted in research and empathy, always striving to understa
 			
 											<!-- Start skills progress bar -->
 
-						                  	<div class="mu-skill-progress-bar">
-						                  		<h3>Skills</h3>
-							                    <span>Figma</span>
-							                    <div class="mu-pro-bar mu-html5-bar">
-							                      
-							                    </div>
-							                    <span>Adobe Illustrator</span>
-							                    <div class="mu-pro-bar mu-css-bar">
-							                     
-							                    </div>
-							                    <span>Adobe Photoshop</span>
-							                    <div class="mu-pro-bar mu-photoshop-bar">
-							                    </div>
-							                    <span>CSS</span>
-							                    <div class="mu-pro-bar mu-wordpress-bar">
-							                    </div>
-							                    <span>HTML5</span>
-							                    <div class="mu-pro-bar mu-jquery-bar">
-							                    </div>
-						                  	</div>
-
+						                  
 						                  	<!-- Start Social Media -->
 						                  	<div class="mu-social-media">
 						                  		<h3>Social</h3>
@@ -172,7 +150,10 @@ My design process is rooted in research and empathy, always striving to understa
 						                  	</div>
 
 						                  	<!-- Download Ressume Button -->
-						                  	<a href="https://drive.google.com/file/d/1HpJT0wztEa-yF9BSFKoh10_Jjg7brnxk/view?usp=sharing" class="mu-resume-btn">Download My Resume</a>
+						                  	<a href="#" class="mu-resume-btn">Download My Resume</a>
+                                            
+                                            <a href="#" class="mu-resume-btn">Contact Me</a>
+
 
 										</div>
 									</div>
@@ -253,7 +234,7 @@ My design process is rooted in research and empathy, always striving to understa
                                         </div>
                                         <div class="mu-filter-item-content">
                                             <h4 class="mu-filter-item-title">3D DESIGN</h4>
-                                            <a class="mu-filter-link" href="RITImagine.html"><i class="fa fa-link"></i></a>
+                                            <a class="mu-filter-link" href="#"><i class="fa fa-link"></i></a>
                                             <a class="mu-filter-imglink" href="assets/images/portfolio/imaginerit.jpg" title="3D MODELING"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
@@ -298,43 +279,6 @@ My design process is rooted in research and empathy, always striving to understa
 
 
 
-		<!-- Start Contact -->
-		<section id="mu-contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-contact-area">
-
-							<div class="mu-contact-header">
-								<h2 class="mu-heading-title">CONTACT ME</h2>
-                                <span class="mu-header-dot"></span>
-							</div>
-
-							<!-- Start Contact Content -->
-							<div class="mu-contact-content">
-								<div class="row">
-
-									<div class="col-md-12">
-										<div class="mu-contact-top">
-
-											
-										</div>
-									</div>	
-
-									<div class="col-md-12">
-										<div class="mu-contact-bottom">
-										<div id="form-messages"></div>
-												
-												<button type="submit" class="mu-send-msg-btn" style="margin-left: 42.5%"><span><a href = "mailto: snigdhafantage@gmail.com">Send Email</a></span></button>
-                                            
-								            </form>
-										</div>
-									</div>	
-
-								</div>
-							</div>
-							<!-- End Contact Content -->
-
 						</div>
 					</div>
 				</div>
@@ -378,6 +322,91 @@ My design process is rooted in research and empathy, always striving to understa
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 
 	
+      <style>
+    .circle {
+         position: absolute;
+        width: 33px;
+        height: 33px;
+        background-color: #c762cb;
+        border-radius: 80%;
+        opacity: 0.5; /* Adjust the opacity as desired */
+    }
+</style>
+
+
+<script>
+    var circles = []; // Array to store the circles
+
+    // Create circles and append them to the document
+    function createCircles() {
+        var numCircles = 10; // Number of circles
+
+        for (var i = 0; i < numCircles; i++) {
+            var circleSize = Math.floor(Math.random() * 30) + 10; // Random size between 10 and 40
+            var circle = document.createElement('div');
+            circle.className = 'circle';
+            circle.style.width = circleSize + 'px';
+            circle.style.height = circleSize + 'px';
+
+            // Calculate random initial position within the screen
+            var minX = 0;
+            var minY = 0;
+            var maxX = window.innerWidth - circleSize;
+            var maxY = window.innerHeight - circleSize;
+            var initialX = Math.floor(Math.random() * (maxX - minX + 1)) + minX;
+            var initialY = Math.floor(Math.random() * (maxY - minY + 1)) + minY;
+            circle.style.left = initialX + 'px';
+            circle.style.top = initialY + 'px';
+
+            document.body.appendChild(circle);
+            circles.push(circle);
+        }
+    }
+
+    // Move circles based on the cursor position
+    function moveCircles(event) {
+        var mouseX = event.clientX;
+        var mouseY = event.clientY;
+
+        circles.forEach(function (circle) {
+            var circleRect = circle.getBoundingClientRect();
+            var circleX = parseInt(circle.style.left);
+            var circleY = parseInt(circle.style.top);
+
+            var dx = mouseX - (circleX + circleRect.width / 2);
+            var dy = mouseY - (circleY + circleRect.height / 2);
+            var distance = Math.sqrt(dx * dx + dy * dy);
+
+            if (distance <= 10) {
+                circle.style.display = 'none';
+                circle.removed = true;
+            } else {
+                if (!circle.removed) {
+                    var newX = circleX + Math.min(Math.max(dx, -5), 5);
+                    var newY = circleY + Math.min(Math.max(dy, -5), 5);
+                    moveCircle(circle, newX, newY);
+                }
+            }
+        });
+
+        // Check if all circles have been removed
+        if (circles.every(function (circle) { return circle.removed; })) {
+            document.removeEventListener('mousemove', moveCircles);
+        }
+    }
+
+    // Function to move a circle to a new position
+    function moveCircle(circle, x, y) {
+        circle.style.left = x + 'px';
+        circle.style.top = y + 'px';
+    }
+
+    // Initialize the circles and add event listener for mouse movement
+    document.addEventListener('DOMContentLoaded', function () {
+        createCircles();
+        document.addEventListener('mousemove', moveCircles);
+    });
+</script>
 	
     
   </body>
